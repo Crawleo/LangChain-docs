@@ -141,6 +141,10 @@ LINK_MAPS: list[LinkMap] = [
             "ChatParallelWeb": "integrations/langchain_parallel/ChatParallelWeb",
             "ParallelWebSearchTool": "integrations/langchain_parallel/ParallelWebSearchTool",
             "ParallelExtractTool": "integrations/langchain_parallel/ParallelExtractTool",
+            # langchain-amazon-nova
+            "langchain-amazon-nova": "integrations/langchain_amazon_nova",
+            "ChatAmazonNova": "integrations/langchain_amazon_nova/#langchain_amazon_nova.ChatAmazonNova",
+            "langchain_amazon_nova": "integrations/langchain_amazon_nova",
             # Models
             "init_chat_model": "langchain/models/#langchain.chat_models.init_chat_model",
             "init_chat_model(model)": "langchain/models/#langchain.chat_models.init_chat_model(model)",
